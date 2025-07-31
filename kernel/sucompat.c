@@ -27,9 +27,6 @@
 #ifndef CONFIG_KSU_KPROBES_HOOK
 static bool ksu_sucompat_non_kp __read_mostly = true;
 #endif
-#ifndef CONFIG_KSU_SUSFS_SUS_SU
-bool ksu_devpts_hook __read_mostly = true;
-#endif
 
 extern void ksu_escape_to_root();
 
